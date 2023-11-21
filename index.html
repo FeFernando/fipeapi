@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        display: grid;
+        background-color: azure;
+        height: 100vh;
+
+    }
+
+    section {
+
+        place-self: center;
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        box-shadow: 2px 4px 9px 0px;
+        border-radius: 20px;
+        text-align: center;
+
+    }
+
+    #info {
+        height: 250px;
+        display: grid;
+        place-items: center;
+        align-content: center;
+        justify-content: space-around;
+    }
+</style>
+
+<body>
+
+    <section>
+       <label for="marcas">Selecione uma marca</label>
+        <select name="marcas" id="marcas"></select>
+
+
+        <div id="info">
+            
+        </div>
+    </section>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
